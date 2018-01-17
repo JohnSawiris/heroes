@@ -12,7 +12,7 @@ export class HeroesComponent implements OnInit {
 
   selectedHero: Hero;
 
-  heroes = Hero[];
+  heroes: Hero[];
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
